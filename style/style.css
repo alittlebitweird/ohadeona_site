@@ -107,6 +107,7 @@ a:hover {
   display: none;
 }
 
+
 #music-link {
   display: inline-block;
   -ms-transform: rotate(-2.5deg); /* IE 9 */
@@ -144,6 +145,7 @@ a:hover {
 }
 
 #logo {
+  background: url(../img/party-friends-logo-word-wrapped.png);
   text-align: center;
   display: inline-block;
   float: left;
@@ -325,13 +327,12 @@ li.square {
   }
 }
 
-#image-top img {
+#party-friends-header-image {
   margin-top: -400px;
   width: 100%;
 }
 
 /* Side */
-
 .side {
   position: fixed;
   height: 100vh;
