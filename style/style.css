@@ -1,0 +1,476 @@
+body {
+  margin: -23px 0 0 0;
+  font-family: 'VT323', monospace;
+  background: black;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(190, 171, 152);
+}
+
+/* Supreme Overlay */
+#supreme-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: calc(100% + 50px);
+  background: rgba(0, 0, 0, .8);
+  overflow: hidden;
+}
+
+#supreme-overlay p {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: right;
+  margin: 0 -30px -10px 0;
+}
+
+#supreme-overlay p:hover {
+  cursor: pointer;
+}
+
+#supreme-overlay h2 {
+  left: 25%;
+  color: #fff;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
+}
+
+#supreme-overlay form {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+}
+
+#supreme-overlay input, #supreme-overlay textarea {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+}
+
+#supreme-overlay input[type=submit] {
+  width: 104%;
+}
+
+#supreme-overlay input[type=submit]:hover {
+  cursor: pointer;
+  width: 104%;
+}
+
+/* Container */
+.container {
+  max-width: 60%;
+  margin: 0 20%;
+}
+
+/* Header */
+#top {
+  width: 100%;
+  height: 45px;
+  padding: 25px 0 5px;
+  background: #fff;
+  position: relative;
+  z-index: 100;
+  font-size: 25px;
+  border-bottom: solid 1px #f7f7f7;
+  margin: 0 auto
+}
+
+#top a {
+  color: black;
+}
+
+#ascii-logo-single-line {
+}
+
+#ascii-logo-word-wrapped {
+  display: none;
+}
+
+#music-link {
+  display: inline-block;
+  -ms-transform: rotate(-2.5deg); /* IE 9 */
+  -webkit-transform: rotate(-2.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(-2.5deg);
+}
+
+#video-link {
+  display: inline-block;
+  -ms-transform: rotate(2deg); /* IE 9 */
+  -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+}
+
+#shows-link {
+  display: inline-block;
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+  transform: rotate(-3deg);
+}
+
+#store-link {
+  display: inline-block;
+  -ms-transform: rotate(3deg); /* IE 9 */
+  -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+  transform: rotate(3deg);
+}
+
+.above-fold {
+  margin: 75px auto 0 auto !important;
+}
+
+.fixed {
+  position: fixed !important;
+  top: 0;
+}
+
+#logo {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+#logo a {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  -ms-transform: rotate(-1.5deg); /* IE 9 */
+  -webkit-transform: rotate(-1.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(-1.5deg);
+}
+
+#top-nav {
+  display: inline-block;
+  float: left;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+#top-nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+#top-nav li {
+  display: inline;
+  margin: 10px;
+}
+
+#top a:hover {
+  border-bottom: solid 1px;
+}
+
+
+li.square {
+  margin: 0 !important;
+  color: black
+}
+
+#social {
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+#social ul {
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+#social li {
+  display: inline;
+  margin: 5px;
+}
+
+#social img {
+  width: 30px;
+  cursor: pointer;
+}
+
+#facebook-link {
+  display: inline-block;
+  -ms-transform: rotate(3deg); /* IE 9 */
+  -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+  transform: rotate(3deg);
+}
+
+#youtube-link {
+  display: inline-block;
+  -ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+  transform: rotate(-4deg);
+}
+
+#bandcamp-link {
+  display: inline-block;
+  -ms-transform: rotate(2deg); /* IE 9 */
+  -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+  transform: rotate(2deg);
+}
+
+/* Colors */
+#colors-1 {
+  background: url(../img/aurora.gif);
+  opacity: 0.14;
+  margin-top: -70px;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+}
+
+#photo-1 {
+  background: url(../img/party-friends-kiss.jpg);
+  opacity: 0.14;
+  margin-top: -70px;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 100;
+}
+
+/* Featured Image */
+#image-top {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 9;
+}
+
+#image-top h1 {
+  position: relative;
+  background: rgba(0, 0, 0, 0);
+  margin: -50px;
+  padding: 200px 0 0px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  white-space: pre;
+  font-family: monospace;
+}
+
+@media screen and (max-width: 1050px) {
+  #image-top h1 {
+    margin: 0;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #image-top h1 {
+    margin: 25px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #image-top h1 {
+    font-size: 10px;
+    margin: 0;
+    padding: 85px 0 0px;
+
+  }
+
+  #ascii-logo-single-line {
+    display: none;
+  }
+
+  #ascii-logo-word-wrapped {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #image-top h1 {
+    font-size: 9px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  #image-top {
+    height: 300px;
+  }
+
+  #image-top h1 {
+    font-size: 7px;
+  }
+}
+
+#image-top img {
+  margin-top: -400px;
+  width: 100%;
+}
+
+/* Side */
+
+.side {
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  width: 125px;
+  background: black;
+  background-size: contain;
+}
+/* Sections */
+#music, #video, #shows {
+  padding-top: 75px;
+  margin: 0 auto -4px auto;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+#music {
+  background: black;
+  background-size: 100%;
+}
+
+#music h1 {
+  display: inline-block;
+  -ms-transform: rotate(-2deg); /* IE 9 */
+  -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+  transform: rotate(-2deg);
+}
+
+#video {
+  background: black;
+  background-size: 100%;
+}
+
+#video h1 {
+  display: inline-block;
+  -ms-transform: rotate(2.3deg); /* IE 9 */
+  -webkit-transform: rotate(2.3deg); /* Chrome, Safari, Opera */
+  transform: rotate(2.3deg);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#shows {
+  margin-bottom: 80px;
+  background: black;
+  background-size: 100%;
+}
+
+#shows h1 {
+  display: inline-block;
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+  transform: rotate(-3deg);
+}
+
+#player {
+  max-width: 100% !important;
+}
+
+.section-bottom {
+  width: 60%;
+  max-width: 1000px;
+  height: 75px;
+  margin: 0 auto -60px auto;
+}
+
+#section-bottom-1 {
+  background: black;
+  background-size: 100%;
+}
+
+#section-bottom-2 {
+  background: black;
+  background-size: 100%;
+}
+
+#section-bottom-3 {
+  background: black;
+  background-size: 100%;
+}
+
+/* Bottom Image */
+#bottom-image img {
+  width: 100%;
+}
+
+/* Footer */
+#footer-nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 30px auto;
+  padding: 30px 0 0 0;
+}
+
+#footer-nav li {
+  font-size: 25px;
+  font-weight: 100;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+}
+
+#footer-nav li:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+
+#press-link {
+  -ms-transform: rotate(-2.5deg); /* IE 9 */
+  -webkit-transform: rotate(-2.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(-2.5deg);
+}
+
+#booking-link {
+  -ms-transform: rotate(2.5deg); /* IE 9 */
+  -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(2.5deg);
+}
+
+#management-link {
+  -ms-transform: rotate(-1.5deg); /* IE 9 */
+  -webkit-transform: rotate(-1.5deg); /* Chrome, Safari, Opera */
+  transform: rotate(-1.5deg);
+}
+
