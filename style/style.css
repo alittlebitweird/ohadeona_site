@@ -260,7 +260,7 @@ li.square {
 
 /* Featured Image */
 #image-top {
-  height: 400px;
+  height: calc(100vh - 56px);
   width: 100%;
   overflow: hidden;
   z-index: 9;
